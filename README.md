@@ -31,7 +31,7 @@ Unzip the file "RECIPE-data.zip" to find the pickle file "RECIPE-data.pkl".
 Use the following code to read the dataset. 
 ```
 import pickle
-f=open("RECIPE-data.pkl","wb")
+f=open("RECIPE-data.pkl","rb")
 data=pickle.load(f)
 ```
 Data will be a list of lists, where each list will be [MAKE, MODEL, YEAR, COMPONENT, PROBLEM CLASS, COMPLAINT TEXT, YEAR]
